@@ -17,7 +17,7 @@ old_ip = LAST_IP_FILE.read_text()
 
 
 # Do a api request to get current ip
-IP_URL = 'http://plain-text-ip.com'
+IP_URL = 'https://api64.ipify.org'
 
 current_ip = requests.get(IP_URL)
 
